@@ -1,0 +1,65 @@
+#navBar{
+	width: 100%;
+	background-color: blue;
+	font-size: 300%;
+	padding: 30px 0px 30px 0px;
+}
+
+.navBar{
+	width: 30%;
+}
+
+.backgroundBrown{
+	background-color: brown;
+}
+
+.blue{
+	background-color: blue;
+}
+
+@keyframes fromTheLeft{
+
+	0%{
+		transform: translate(-800px,0px);
+	}
+
+
+	100%{
+
+		transform: translate(0px,0px);
+
+	}
+	
+}
+
+.preTranslate{
+	transform: translate(-800px);
+}
+
+
+.fromLeft{
+	animation-name: fromTheLeft;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+
+
+.textAlign{
+	text-align: center;
+}
+
+.textOswald{
+	font-family: 'Oswald'
+
+
+}
+.red{
+
+	color: red;
+
+}
+
+.inlineBlock{
+	display: inline-block;
+}
