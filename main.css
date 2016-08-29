@@ -32,6 +32,14 @@
 	
 }
 
+.maxWidth{
+	width: 100%;
+}
+
+.overflowHidden{
+	overflow: hidden;
+}
+
 .preTranslate{
 	transform: translate(-800px);
 }
